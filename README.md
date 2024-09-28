@@ -1,5 +1,7 @@
-This repo contains code which i cooked up within a day 
-Just so i can don't forgot how to do development
-Anyways first piece is Snake on 🔥🔥
-My high score is this try beating me 
-![image](https://github.com/user-attachments/assets/057c9592-479f-4401-8717-22ee50bcb0fb)
+## Welcome internet explorer 
+This repository contains code I quickly cooked up in a day — just to make sure I don’t forget how to do development! 😅
+
+🚀 First Piece of the Puzzle: Snake on 🔥🔥
+![image](https://github.com/user-attachments/assets/5520e57e-e3d3-4a2f-a085-bb10f7fcc5eb)
+Think you can beat me?
+Feel free to break a finger or it will not possible 😁😁
