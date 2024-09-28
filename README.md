@@ -1,4 +1,4 @@
-## Welcome traveller have some water 💦 make sure stay hydrated
+## Welcome traveller have some water 💦 make sure to stay hydrated
 This repository contains code I quickly cooked up in a day — just to make sure I don’t forget how to do development! 😅
 
 🚀 First Piece of the Puzzle: Snake on 🔥🔥
