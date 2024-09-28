@@ -9,7 +9,7 @@ pygame.mixer.init()
 # Load sound effects
 try:
     eat_sound = pygame.mixer.Sound("eat.wav")
-    eat_sound.set_volume(0.3) 
+    eat_sound.set_volume(0.1) 
     game_over_sound = pygame.mixer.Sound("over.wav")
     pygame.mixer.music.load("theme.wav")  # Load theme music
 except pygame.error:
@@ -29,9 +29,8 @@ def play_theme_music():
         pygame.mixer.music.play(-1)  # -1 means loop indefinitely
 
 def stop_theme_music():
-    global theme_music
-    if theme_music:
-        theme_music.stop()
+    if pygame.mixer.music:
+        pygame.mixer.music.stop()
 
 def create_food(sh, sw, snake):
     while True:
@@ -226,7 +225,7 @@ def set_difficulty(stdscr, mode):
 
     while True:
         w.clear()
-        w.border('║', '║', '═', '═', '╔', '╗', '╚', '╝')
+        w.border('║', '║', '-', '-', '+', '+', '+', '+')
         
         title = "Select Difficulty:"
         w.addstr(sh//2 - 4, sw//2 - len(title)//2, title, curses.color_pair(3) | curses.A_BOLD)
@@ -275,7 +274,7 @@ def display_high_scores(stdscr):
 
     while True:
         w.clear()
-        w.border('║', '║', '═', '═', '╔', '╗', '╚', '╝')
+        w.border('║', '║', '-', '-', '+', '+', '+', '+')
         
         title = "HIGH SCORES"
         w.addstr(sh//2 - 6, sw//2 - len(title)//2, title, curses.color_pair(3) | curses.A_BOLD)
